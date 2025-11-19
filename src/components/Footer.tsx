@@ -24,7 +24,7 @@ export function Footer() {
             transition={{ duration: 0.6 }}
           >
             <h3 className="text-2xl font-serif font-bold text-gold-400 mb-4">
-              Le Bois d'Ébène
+              Le Bois d&apos;Ébène
             </h3>
             <p className="text-ivory-300/80 text-sm leading-relaxed">
               {t('footer.tagline', translations.footer.tagline)}

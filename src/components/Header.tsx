@@ -50,7 +50,7 @@ export function Header() {
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.2 }}
             >
-              Le Bois d'Ébène
+              Le Bois d&apos;Ébène
             </motion.div>
           </Link>
 
