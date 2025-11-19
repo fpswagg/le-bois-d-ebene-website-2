@@ -1,0 +1,107 @@
+{
+  "images": [
+    {
+      "id": "1",
+      "src": "/images/gallery/interior-1.jpg",
+      "alt": {
+        "fr": "Salle principale avec lustres dorés",
+        "en": "Main dining room with golden chandeliers"
+      },
+      "category": "interior"
+    },
+    {
+      "id": "2",
+      "src": "/images/gallery/interior-2.jpg",
+      "alt": {
+        "fr": "Bar en bois d'ébène sculpté",
+        "en": "Carved ebony wood bar"
+      },
+      "category": "interior"
+    },
+    {
+      "id": "3",
+      "src": "/images/gallery/food-1.jpg",
+      "alt": {
+        "fr": "Pavé de cerf aux airelles",
+        "en": "Venison steak with cranberries"
+      },
+      "category": "food"
+    },
+    {
+      "id": "4",
+      "src": "/images/gallery/food-2.jpg",
+      "alt": {
+        "fr": "Foie gras mi-cuit",
+        "en": "Semi-cooked foie gras"
+      },
+      "category": "food"
+    },
+    {
+      "id": "5",
+      "src": "/images/gallery/event-1.jpg",
+      "alt": {
+        "fr": "Soirée jazz dans la grande salle",
+        "en": "Jazz night in the main hall"
+      },
+      "category": "events"
+    },
+    {
+      "id": "6",
+      "src": "/images/gallery/event-2.jpg",
+      "alt": {
+        "fr": "Spectacle cabaret",
+        "en": "Cabaret show"
+      },
+      "category": "events"
+    },
+    {
+      "id": "7",
+      "src": "/images/gallery/interior-3.jpg",
+      "alt": {
+        "fr": "Salon privé VIP",
+        "en": "VIP private lounge"
+      },
+      "category": "interior"
+    },
+    {
+      "id": "8",
+      "src": "/images/gallery/food-3.jpg",
+      "alt": {
+        "fr": "Moelleux au chocolat ébène",
+        "en": "Ebony chocolate fondant"
+      },
+      "category": "food"
+    }
+  ],
+  "categories": [
+    {
+      "id": "all",
+      "name": {
+        "fr": "Tout",
+        "en": "All"
+      }
+    },
+    {
+      "id": "interior",
+      "name": {
+        "fr": "Intérieur",
+        "en": "Interior"
+      }
+    },
+    {
+      "id": "food",
+      "name": {
+        "fr": "Gastronomie",
+        "en": "Gastronomy"
+      }
+    },
+    {
+      "id": "events",
+      "name": {
+        "fr": "Événements",
+        "en": "Events"
+      }
+    }
+  ]
+}
+

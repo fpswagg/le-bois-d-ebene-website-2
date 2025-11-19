@@ -1,0 +1,96 @@
+{
+  "upcoming": [
+    {
+      "id": "jazz-night",
+      "title": {
+        "fr": "Soirée Jazz & Swing",
+        "en": "Jazz & Swing Night"
+      },
+      "date": "2025-12-15",
+      "time": "20:00",
+      "description": {
+        "fr": "Plongez dans l'ambiance envoûtante du jazz avec notre trio exclusif. Une soirée élégante où la musique sublime rencontre la gastronomie raffinée.",
+        "en": "Immerse yourself in the enchanting atmosphere of jazz with our exclusive trio. An elegant evening where sublime music meets refined gastronomy."
+      },
+      "artist": {
+        "fr": "Le Trio Émeraude",
+        "en": "The Emerald Trio"
+      },
+      "price": "95€",
+      "image": "jazz-night.jpg"
+    },
+    {
+      "id": "reveillon",
+      "title": {
+        "fr": "Réveillon du Nouvel An",
+        "en": "New Year's Eve Celebration"
+      },
+      "date": "2025-12-31",
+      "time": "19:30",
+      "description": {
+        "fr": "Célébrez la nouvelle année dans le cadre prestigieux du Bois d'Ébène. Menu gastronomique 7 services, champagne et spectacle cabaret exceptionnel.",
+        "en": "Celebrate the new year in the prestigious setting of Le Bois d'Ébène. 7-course gourmet menu, champagne and exceptional cabaret show."
+      },
+      "artist": {
+        "fr": "Spectacle Cabaret & DJ",
+        "en": "Cabaret Show & DJ"
+      },
+      "price": "250€",
+      "image": "reveillon.jpg"
+    },
+    {
+      "id": "opera-night",
+      "title": {
+        "fr": "Nuit d'Opéra",
+        "en": "Opera Night"
+      },
+      "date": "2026-01-20",
+      "time": "19:00",
+      "description": {
+        "fr": "Une soirée exceptionnelle dédiée aux plus grands airs d'opéra, interprétés par des solistes renommés dans notre écrin intimiste.",
+        "en": "An exceptional evening dedicated to the greatest opera arias, performed by renowned soloists in our intimate setting."
+      },
+      "artist": {
+        "fr": "Soprano & Ténor Invités",
+        "en": "Guest Soprano & Tenor"
+      },
+      "price": "120€",
+      "image": "opera.jpg"
+    }
+  ],
+  "regular": [
+    {
+      "id": "piano-bar",
+      "title": {
+        "fr": "Piano Bar",
+        "en": "Piano Bar"
+      },
+      "schedule": {
+        "fr": "Tous les vendredis et samedis",
+        "en": "Every Friday and Saturday"
+      },
+      "time": "21:00",
+      "description": {
+        "fr": "Ambiance feutrée avec notre pianiste résident qui vous accompagne tout au long de la soirée.",
+        "en": "Intimate atmosphere with our resident pianist accompanying you throughout the evening."
+      }
+    },
+    {
+      "id": "brunch",
+      "title": {
+        "fr": "Brunch Dominical",
+        "en": "Sunday Brunch"
+      },
+      "schedule": {
+        "fr": "Tous les dimanches",
+        "en": "Every Sunday"
+      },
+      "time": "11:00 - 15:00",
+      "description": {
+        "fr": "Brunch raffiné avec buffet à volonté, viennoiseries maison et champagne.",
+        "en": "Refined brunch with unlimited buffet, homemade pastries and champagne."
+      }
+    }
+  ]
+}
+

@@ -1,0 +1,197 @@
+{
+  "categories": [
+    {
+      "id": "entrees",
+      "name": {
+        "fr": "Entrées",
+        "en": "Starters"
+      },
+      "items": [
+        {
+          "id": "terrine",
+          "name": {
+            "fr": "Terrine de Gibier aux Noisettes",
+            "en": "Game Terrine with Hazelnuts"
+          },
+          "description": {
+            "fr": "Terrine maison de sanglier et cerf, accompagnée de compotée d'oignons et pain brioché toasté",
+            "en": "Homemade wild boar and venison terrine, served with onion compote and toasted brioche bread"
+          },
+          "price": "18€"
+        },
+        {
+          "id": "foiegras",
+          "name": {
+            "fr": "Foie Gras de Canard Mi-Cuit",
+            "en": "Semi-Cooked Duck Foie Gras"
+          },
+          "description": {
+            "fr": "Foie gras mi-cuit, chutney de figues, sel de Guérande et pain d'épices",
+            "en": "Semi-cooked foie gras, fig chutney, Guérande salt and gingerbread"
+          },
+          "price": "24€"
+        },
+        {
+          "id": "saumon",
+          "name": {
+            "fr": "Gravlax de Saumon Sauvage",
+            "en": "Wild Salmon Gravlax"
+          },
+          "description": {
+            "fr": "Saumon mariné aux agrumes et aneth, crème acidulée et blinis",
+            "en": "Citrus and dill marinated salmon, sour cream and blinis"
+          },
+          "price": "22€"
+        }
+      ]
+    },
+    {
+      "id": "plats",
+      "name": {
+        "fr": "Plats Principaux",
+        "en": "Main Courses"
+      },
+      "items": [
+        {
+          "id": "cerf",
+          "name": {
+            "fr": "Pavé de Cerf Rôti",
+            "en": "Roasted Venison Steak"
+          },
+          "description": {
+            "fr": "Pavé de cerf rôti à la perfection, sauce aux airelles, purée de céleri-rave truffée et légumes de saison",
+            "en": "Perfectly roasted venison steak, cranberry sauce, truffle celeriac purée and seasonal vegetables"
+          },
+          "price": "42€"
+        },
+        {
+          "id": "sanglier",
+          "name": {
+            "fr": "Civet de Sanglier Grand Veneur",
+            "en": "Wild Boar Stew Grand Veneur"
+          },
+          "description": {
+            "fr": "Civet de sanglier mijoté au vin rouge, accompagné de spätzle maison et champignons des bois",
+            "en": "Wild boar stew braised in red wine, served with homemade spätzle and forest mushrooms"
+          },
+          "price": "38€"
+        },
+        {
+          "id": "canard",
+          "name": {
+            "fr": "Magret de Canard aux Épices",
+            "en": "Spiced Duck Breast"
+          },
+          "description": {
+            "fr": "Magret de canard rôti aux épices douces, jus au miel et orange, écrasé de pommes de terre à l'huile de truffe",
+            "en": "Roasted duck breast with sweet spices, honey and orange jus, truffle oil crushed potatoes"
+          },
+          "price": "36€"
+        },
+        {
+          "id": "bar",
+          "name": {
+            "fr": "Bar de Ligne Grillé",
+            "en": "Grilled Line-Caught Sea Bass"
+          },
+          "description": {
+            "fr": "Bar entier grillé, beurre blanc au champagne, légumes primeurs et pommes grenailles rôties",
+            "en": "Whole grilled sea bass, champagne butter sauce, spring vegetables and roasted fingerling potatoes"
+          },
+          "price": "44€"
+        }
+      ]
+    },
+    {
+      "id": "desserts",
+      "name": {
+        "fr": "Desserts",
+        "en": "Desserts"
+      },
+      "items": [
+        {
+          "id": "chocolate",
+          "name": {
+            "fr": "Moelleux au Chocolat Ébène",
+            "en": "Ebony Chocolate Fondant"
+          },
+          "description": {
+            "fr": "Moelleux au chocolat noir 75%, cœur coulant, glace vanille bourbon",
+            "en": "75% dark chocolate fondant, molten center, bourbon vanilla ice cream"
+          },
+          "price": "14€"
+        },
+        {
+          "id": "tarte",
+          "name": {
+            "fr": "Tarte Fine aux Poires et Caramel",
+            "en": "Pear and Caramel Tart"
+          },
+          "description": {
+            "fr": "Tarte fine aux poires caramélisées, crème d'amandes et glace caramel au beurre salé",
+            "en": "Thin tart with caramelized pears, almond cream and salted butter caramel ice cream"
+          },
+          "price": "13€"
+        },
+        {
+          "id": "mille",
+          "name": {
+            "fr": "Mille-Feuille Vanille-Framboise",
+            "en": "Vanilla-Raspberry Mille-Feuille"
+          },
+          "description": {
+            "fr": "Mille-feuille croustillant, crème mousseline vanille, framboises fraîches",
+            "en": "Crispy mille-feuille, vanilla mousseline cream, fresh raspberries"
+          },
+          "price": "15€"
+        }
+      ]
+    },
+    {
+      "id": "boissons",
+      "name": {
+        "fr": "Carte des Vins",
+        "en": "Wine List"
+      },
+      "items": [
+        {
+          "id": "champagne",
+          "name": {
+            "fr": "Champagne Brut Prestige",
+            "en": "Prestige Brut Champagne"
+          },
+          "description": {
+            "fr": "Bouteille 75cl",
+            "en": "Bottle 75cl"
+          },
+          "price": "85€"
+        },
+        {
+          "id": "bordeaux",
+          "name": {
+            "fr": "Bordeaux Grand Cru Classé",
+            "en": "Bordeaux Grand Cru Classé"
+          },
+          "description": {
+            "fr": "Sélection du sommelier",
+            "en": "Sommelier's selection"
+          },
+          "price": "95€"
+        },
+        {
+          "id": "bourgogne",
+          "name": {
+            "fr": "Bourgogne Premier Cru",
+            "en": "Burgundy Premier Cru"
+          },
+          "description": {
+            "fr": "Pinot Noir d'exception",
+            "en": "Exceptional Pinot Noir"
+          },
+          "price": "110€"
+        }
+      ]
+    }
+  ]
+}
+

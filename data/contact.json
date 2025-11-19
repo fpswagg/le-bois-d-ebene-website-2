@@ -1,0 +1,122 @@
+{
+  "info": {
+    "name": "Le Bois d'Ébène",
+    "address": {
+      "street": "42 Avenue des Champs-Élysées",
+      "city": "Paris",
+      "postalCode": "75008",
+      "country": {
+        "fr": "France",
+        "en": "France"
+      }
+    },
+    "phone": "+33 1 42 56 78 90",
+    "email": "contact@leboisdebene.fr",
+    "hours": {
+      "fr": {
+        "monday": "Fermé",
+        "tuesday": "19:00 - 00:00",
+        "wednesday": "19:00 - 00:00",
+        "thursday": "19:00 - 00:00",
+        "friday": "19:00 - 02:00",
+        "saturday": "19:00 - 02:00",
+        "sunday": "11:00 - 16:00 (Brunch uniquement)"
+      },
+      "en": {
+        "monday": "Closed",
+        "tuesday": "7:00 PM - 12:00 AM",
+        "wednesday": "7:00 PM - 12:00 AM",
+        "thursday": "7:00 PM - 12:00 AM",
+        "friday": "7:00 PM - 2:00 AM",
+        "saturday": "7:00 PM - 2:00 AM",
+        "sunday": "11:00 AM - 4:00 PM (Brunch only)"
+      }
+    },
+    "social": {
+      "facebook": "https://facebook.com/leboisdebene",
+      "instagram": "https://instagram.com/leboisdebene",
+      "twitter": "https://twitter.com/leboisdebene"
+    },
+    "coordinates": {
+      "lat": 48.8698,
+      "lng": 2.3078
+    }
+  },
+  "form": {
+    "fields": {
+      "name": {
+        "label": {
+          "fr": "Nom complet",
+          "en": "Full name"
+        },
+        "placeholder": {
+          "fr": "Votre nom",
+          "en": "Your name"
+        }
+      },
+      "email": {
+        "label": {
+          "fr": "Adresse email",
+          "en": "Email address"
+        },
+        "placeholder": {
+          "fr": "votre@email.fr",
+          "en": "your@email.com"
+        }
+      },
+      "phone": {
+        "label": {
+          "fr": "Téléphone",
+          "en": "Phone"
+        },
+        "placeholder": {
+          "fr": "+33 6 12 34 56 78",
+          "en": "+33 6 12 34 56 78"
+        }
+      },
+      "date": {
+        "label": {
+          "fr": "Date souhaitée",
+          "en": "Desired date"
+        }
+      },
+      "time": {
+        "label": {
+          "fr": "Heure",
+          "en": "Time"
+        }
+      },
+      "guests": {
+        "label": {
+          "fr": "Nombre de personnes",
+          "en": "Number of guests"
+        }
+      },
+      "message": {
+        "label": {
+          "fr": "Message (optionnel)",
+          "en": "Message (optional)"
+        },
+        "placeholder": {
+          "fr": "Demandes particulières, allergies, occasion spéciale...",
+          "en": "Special requests, allergies, special occasion..."
+        }
+      }
+    },
+    "submit": {
+      "fr": "Réserver",
+      "en": "Reserve"
+    },
+    "success": {
+      "title": {
+        "fr": "Réservation envoyée !",
+        "en": "Reservation sent!"
+      },
+      "message": {
+        "fr": "Nous vous confirmerons votre réservation par email dans les plus brefs délais.",
+        "en": "We will confirm your reservation by email as soon as possible."
+      }
+    }
+  }
+}
+

@@ -1,0 +1,135 @@
+{
+  "nav": {
+    "home": {
+      "fr": "Accueil",
+      "en": "Home"
+    },
+    "about": {
+      "fr": "À Propos",
+      "en": "About"
+    },
+    "menu": {
+      "fr": "Menu",
+      "en": "Menu"
+    },
+    "events": {
+      "fr": "Événements",
+      "en": "Events"
+    },
+    "gallery": {
+      "fr": "Galerie",
+      "en": "Gallery"
+    },
+    "contact": {
+      "fr": "Contact",
+      "en": "Contact"
+    },
+    "reserve": {
+      "fr": "Réserver",
+      "en": "Reserve"
+    }
+  },
+  "hero": {
+    "title": {
+      "fr": "Le Bois d'Ébène",
+      "en": "Le Bois d'Ébène"
+    },
+    "subtitle": {
+      "fr": "Cabaret-Restaurant de Prestige",
+      "en": "Prestigious Cabaret-Restaurant"
+    },
+    "description": {
+      "fr": "Une expérience gastronomique et artistique d'exception au cœur de Paris",
+      "en": "An exceptional gastronomic and artistic experience in the heart of Paris"
+    },
+    "cta": {
+      "fr": "Découvrir",
+      "en": "Discover"
+    }
+  },
+  "about": {
+    "title": {
+      "fr": "Notre Histoire",
+      "en": "Our Story"
+    },
+    "subtitle": {
+      "fr": "Un lieu mythique depuis 1925",
+      "en": "A legendary venue since 1925"
+    },
+    "content": {
+      "fr": [
+        "Le Bois d'Ébène incarne l'élégance parisienne depuis près d'un siècle. Niché au cœur de la capitale, notre établissement est bien plus qu'un simple restaurant : c'est un voyage dans le temps, une célébration de l'art de vivre à la française.",
+        "Nos murs ornés de boiseries précieuses en ébène véritable témoignent d'une époque révolue où le raffinement et l'excellence étaient les maîtres-mots. Chaque détail, des lustres en cristal aux fauteuils en velours, a été pensé pour créer une atmosphère à la fois intimiste et grandiose.",
+        "Notre cuisine sublime les produits d'exception, avec une prédilection pour le gibier et les mets raffinés. Notre chef étoilé compose des assiettes qui sont de véritables œuvres d'art, mariant tradition et créativité.",
+        "Le soir venu, Le Bois d'Ébène se transforme en scène vivante où se succèdent concerts de jazz, spectacles de cabaret et performances artistiques. Une expérience sensorielle complète qui ravit les palais les plus exigeants."
+      ],
+      "en": [
+        "Le Bois d'Ébène has embodied Parisian elegance for nearly a century. Nestled in the heart of the capital, our establishment is much more than a simple restaurant: it's a journey through time, a celebration of the French art of living.",
+        "Our walls adorned with precious genuine ebony woodwork bear witness to a bygone era when refinement and excellence were the watchwords. Every detail, from the crystal chandeliers to the velvet armchairs, has been designed to create an atmosphere that is both intimate and grandiose.",
+        "Our cuisine elevates exceptional products, with a preference for game and refined dishes. Our Michelin-starred chef composes plates that are true works of art, combining tradition and creativity.",
+        "In the evening, Le Bois d'Ébène transforms into a living stage where jazz concerts, cabaret shows and artistic performances follow one another. A complete sensory experience that delights the most demanding palates."
+      ]
+    },
+    "values": {
+      "title": {
+        "fr": "Nos Valeurs",
+        "en": "Our Values"
+      },
+      "items": [
+        {
+          "title": {
+            "fr": "Excellence",
+            "en": "Excellence"
+          },
+          "description": {
+            "fr": "Nous sélectionnons avec soin chaque ingrédient et chaque artiste pour offrir une expérience d'exception.",
+            "en": "We carefully select each ingredient and each artist to offer an exceptional experience."
+          }
+        },
+        {
+          "title": {
+            "fr": "Tradition",
+            "en": "Tradition"
+          },
+          "description": {
+            "fr": "Nous perpétuons l'héritage des cabarets parisiens tout en innovant constamment.",
+            "en": "We perpetuate the legacy of Parisian cabarets while constantly innovating."
+          }
+        },
+        {
+          "title": {
+            "fr": "Raffinement",
+            "en": "Refinement"
+          },
+          "description": {
+            "fr": "Chaque détail est pensé pour créer une atmosphère élégante et immersive.",
+            "en": "Every detail is designed to create an elegant and immersive atmosphere."
+          }
+        }
+      ]
+    }
+  },
+  "footer": {
+    "tagline": {
+      "fr": "L'excellence à la française depuis 1925",
+      "en": "French excellence since 1925"
+    },
+    "copyright": {
+      "fr": "© 2025 Le Bois d'Ébène. Tous droits réservés.",
+      "en": "© 2025 Le Bois d'Ébène. All rights reserved."
+    },
+    "hours": {
+      "fr": "Horaires",
+      "en": "Hours"
+    },
+    "contact": {
+      "fr": "Contact",
+      "en": "Contact"
+    },
+    "follow": {
+      "fr": "Suivez-nous",
+      "en": "Follow us"
+    }
+  }
+}
+
