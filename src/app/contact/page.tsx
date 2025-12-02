@@ -11,6 +11,7 @@ import { toast } from '@/components/ui/use-toast'
 import { useLanguage } from '@/contexts/LanguageContext'
 import translations from '@/../data/translations.json'
 import contactData from '@/../data/contact.json'
+import { submitContactForm } from '@/app/actions/contact'
 
 export default function ContactPage() {
   const { language, t } = useLanguage()
@@ -29,7 +30,7 @@ export default function ContactPage() {
     e.preventDefault()
     setLoading(true)
 
-    // Validation
+    // Client-side validation
     if (!formData.name || !formData.email || !formData.phone || !formData.date || !formData.time) {
       toast({
         variant: 'destructive',
@@ -56,24 +57,36 @@ export default function ContactPage() {
       return
     }
 
-    // Simulate API call
-    await new Promise(resolve => setTimeout(resolve, 1500))
+    // Submit form using server action
+    const result = await submitContactForm(formData)
 
-    toast({
-      variant: 'success',
-      title: t('form.success.title', contactData.form.success.title),
-      description: t('form.success.message', contactData.form.success.message),
-    })
+    if (result.success) {
+      toast({
+        variant: 'default',
+        title: t('form.success.title', contactData.form.success.title),
+        description: t('form.success.message', contactData.form.success.message),
+      })
 
-    setFormData({
-      name: '',
-      email: '',
-      phone: '',
-      date: '',
-      time: '',
-      guests: '2',
-      message: '',
-    })
+      // Reset form
+      setFormData({
+        name: '',
+        email: '',
+        phone: '',
+        date: '',
+        time: '',
+        guests: '2',
+        message: '',
+      })
+    } else {
+      toast({
+        variant: 'destructive',
+        title: language === 'fr' ? 'Erreur' : 'Error',
+        description: result.error || (language === 'fr' 
+          ? 'Une erreur est survenue. Veuillez réessayer.' 
+          : 'An error occurred. Please try again.'),
+      })
+    }
+
     setLoading(false)
   }
 
@@ -92,7 +105,7 @@ export default function ContactPage() {
         <div
           className="absolute inset-0 opacity-20 bg-cover bg-center"
           style={{
-            backgroundImage: 'url(https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=2070)',
+            backgroundImage: 'url(/images/gallery/interior-1.jpg)',
           }}
         />
         
@@ -348,7 +361,7 @@ export default function ContactPage() {
             transition={{ duration: 0.8 }}
           >
             <iframe
-              src={`https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2916878079726!2d${contactData.info.coordinates.lng}!3d${contactData.info.coordinates.lat}!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zM0KCsDUyJzExLjMiTiAywrAxOCcyOC4xIkU!5e0!3m2!1sen!2s!4v1234567890123!5m2!1sen!2s`}
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d995.180516912454!2d11.522948335518569!3d3.869678406464125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x108bcf7fcf32f87f%3A0x507553e24c78e78a!2sBois%20d&#39;ebene%2C%20Yaound%C3%A9!5e0!3m2!1sfr!2scm!4v1764665986616!5m2!1sfr!2scm"
               width="100%"
               height="100%"
               style={{ border: 0 }}

@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from 'framer-motion'
-import { Calendar, Clock, Euro, Music } from 'lucide-react'
+import { Music } from 'lucide-react'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
@@ -22,7 +22,7 @@ export default function EventsPage() {
         <div
           className="absolute inset-0 opacity-20 bg-cover bg-center"
           style={{
-            backgroundImage: 'url(https://images.unsplash.com/photo-1514525253161-7a46d19cd819?q=80&w=2074)',
+            backgroundImage: 'url(/images/gallery/interior-singing.jpg)',
           }}
         />
         
@@ -53,7 +53,7 @@ export default function EventsPage() {
         </div>
       </section>
 
-      {/* Upcoming Events */}
+      {/* Moments */}
       <section className="py-24 px-4 bg-ebony-900">
         <div className="container mx-auto">
           <motion.div
@@ -64,14 +64,17 @@ export default function EventsPage() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-4xl md:text-5xl font-serif font-bold text-gold-400 mb-4">
-              {t('hero.description', { fr: 'Événements à Venir', en: 'Upcoming Events' })}
+              {t('hero.description', { fr: 'Nos Moments', en: 'Our Moments' })}
             </h2>
+            <p className="text-xl text-ivory-300/80 max-w-2xl mx-auto">
+              {t('hero.description', { fr: 'Des moments magiques qui se créent naturellement', en: 'Magical moments that are created naturally' })}
+            </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
-            {eventsData.upcoming.map((event, index) => (
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            {eventsData.moments.map((moment, index) => (
               <motion.div
-                key={event.id}
+                key={moment.id}
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: '-50px' }}
@@ -82,48 +85,22 @@ export default function EventsPage() {
                     <div
                       className="absolute inset-0 bg-cover bg-center"
                       style={{
-                        backgroundImage: `url(https://images.unsplash.com/photo-1514525253161-7a46d19cd819?q=80&w=2074)`,
+                        backgroundImage: `url(${moment.image ? `/images/gallery/${moment.image}` : '/images/gallery/interior-singing.jpg'})`,
                       }}
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-ebony-950 to-transparent" />
-                    <div className="absolute bottom-4 left-4">
-                      <Badge className="text-base px-3 py-1">
-                        {formatDate(event.date, language === 'fr' ? 'fr-FR' : 'en-US')}
-                      </Badge>
-                    </div>
                   </div>
                   
                   <CardHeader>
                     <CardTitle className="text-2xl mb-2">
-                      {t('event.title', event.title)}
+                      {t('moment.title', moment.title)}
                     </CardTitle>
-                    <CardDescription className="flex items-center gap-2 text-base">
-                      <Music className="h-4 w-4" />
-                      {t('event.artist', event.artist)}
-                    </CardDescription>
                   </CardHeader>
                   
                   <CardContent>
-                    <p className="text-ivory-300/80 mb-6 leading-relaxed">
-                      {t('event.description', event.description)}
+                    <p className="text-ivory-300/80 leading-relaxed">
+                      {t('moment.description', moment.description)}
                     </p>
-                    
-                    <div className="flex flex-wrap gap-4 mb-6">
-                      <div className="flex items-center gap-2 text-ivory-300">
-                        <Clock className="h-4 w-4 text-gold-400" />
-                        <span className="text-sm">{event.time}</span>
-                      </div>
-                      <div className="flex items-center gap-2 text-ivory-300">
-                        <Euro className="h-4 w-4 text-gold-400" />
-                        <span className="text-sm font-semibold">{event.price}</span>
-                      </div>
-                    </div>
-                    
-                    <Link href="/contact">
-                      <Button className="w-full">
-                        {t('nav.reserve', translations.nav.reserve)}
-                      </Button>
-                    </Link>
                   </CardContent>
                 </Card>
               </motion.div>
@@ -164,10 +141,6 @@ export default function EventsPage() {
                     <CardTitle className="text-2xl">
                       {t('event.title', event.title)}
                     </CardTitle>
-                    <CardDescription className="flex items-center gap-2">
-                      <Clock className="h-4 w-4" />
-                      {event.time}
-                    </CardDescription>
                   </CardHeader>
                   <CardContent>
                     <p className="text-ivory-300/80 leading-relaxed">

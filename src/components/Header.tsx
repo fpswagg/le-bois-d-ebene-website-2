@@ -11,17 +11,8 @@ import translations from '@/../data/translations.json'
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false)
-  const [scrolled, setScrolled] = useState(false)
   const pathname = usePathname()
   const { language, setLanguage, t } = useLanguage()
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 50)
-    }
-    window.addEventListener('scroll', handleScroll)
-    return () => window.removeEventListener('scroll', handleScroll)
-  }, [])
 
   const navItems = [
     { href: '/', label: t('nav.home', translations.nav.home) },
@@ -34,14 +25,12 @@ export function Header() {
 
   return (
     <motion.header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? 'bg-ebony-950/95 backdrop-blur-md shadow-deep' : 'bg-transparent'
-      }`}
+      className="fixed top-0 left-0 right-0 z-50 bg-ebony-950/95 backdrop-blur-md shadow-deep transition-all duration-300"
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.6, ease: 'easeOut' }}
     >
-      <nav className="container mx-auto px-4 py-4">
+      <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/">
@@ -50,7 +39,7 @@ export function Header() {
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.2 }}
             >
-              Le Bois d&apos;Ébène
+              Bois d&apos;Ébène
             </motion.div>
           </Link>
 

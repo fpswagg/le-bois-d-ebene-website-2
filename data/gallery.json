@@ -4,8 +4,8 @@
       "id": "1",
       "src": "/images/gallery/interior-1.jpg",
       "alt": {
-        "fr": "Salle principale avec lustres dorés",
-        "en": "Main dining room with golden chandeliers"
+        "fr": "Salle principale du cabaret",
+        "en": "Main cabaret hall"
       },
       "category": "interior"
     },
@@ -13,62 +13,98 @@
       "id": "2",
       "src": "/images/gallery/interior-2.jpg",
       "alt": {
-        "fr": "Bar en bois d'ébène sculpté",
-        "en": "Carved ebony wood bar"
+        "fr": "Intérieur du cabaret",
+        "en": "Cabaret interior"
       },
       "category": "interior"
     },
     {
       "id": "3",
-      "src": "/images/gallery/food-1.jpg",
-      "alt": {
-        "fr": "Pavé de cerf aux airelles",
-        "en": "Venison steak with cranberries"
-      },
-      "category": "food"
-    },
-    {
-      "id": "4",
-      "src": "/images/gallery/food-2.jpg",
-      "alt": {
-        "fr": "Foie gras mi-cuit",
-        "en": "Semi-cooked foie gras"
-      },
-      "category": "food"
-    },
-    {
-      "id": "5",
-      "src": "/images/gallery/event-1.jpg",
-      "alt": {
-        "fr": "Soirée jazz dans la grande salle",
-        "en": "Jazz night in the main hall"
-      },
-      "category": "events"
-    },
-    {
-      "id": "6",
-      "src": "/images/gallery/event-2.jpg",
-      "alt": {
-        "fr": "Spectacle cabaret",
-        "en": "Cabaret show"
-      },
-      "category": "events"
-    },
-    {
-      "id": "7",
       "src": "/images/gallery/interior-3.jpg",
       "alt": {
-        "fr": "Salon privé VIP",
-        "en": "VIP private lounge"
+        "fr": "Espace intérieur",
+        "en": "Interior space"
       },
       "category": "interior"
     },
     {
-      "id": "8",
-      "src": "/images/gallery/food-3.jpg",
+      "id": "4",
+      "src": "/images/gallery/interior-4.jpg",
       "alt": {
-        "fr": "Moelleux au chocolat ébène",
-        "en": "Ebony chocolate fondant"
+        "fr": "Ambiance intérieure",
+        "en": "Interior atmosphere"
+      },
+      "category": "interior"
+    },
+    {
+      "id": "5",
+      "src": "/images/gallery/plate-1.jpg",
+      "alt": {
+        "fr": "Plat gastronomique",
+        "en": "Gastronomic dish"
+      },
+      "category": "food"
+    },
+    {
+      "id": "6",
+      "src": "/images/gallery/plate-2.jpg",
+      "alt": {
+        "fr": "Spécialité culinaire",
+        "en": "Culinary specialty"
+      },
+      "category": "food"
+    },
+    {
+      "id": "7",
+      "src": "/images/gallery/plate-3.jpg",
+      "alt": {
+        "fr": "Présentation de plat",
+        "en": "Dish presentation"
+      },
+      "category": "food"
+    },
+    {
+      "id": "8",
+      "src": "/images/gallery/plate-4.jpg",
+      "alt": {
+        "fr": "Création culinaire",
+        "en": "Culinary creation"
+      },
+      "category": "food"
+    },
+    {
+      "id": "9",
+      "src": "/images/gallery/outside-at-night.jpg",
+      "alt": {
+        "fr": "Extérieur du cabaret de nuit",
+        "en": "Cabaret exterior at night"
+      },
+      "category": "exterior"
+    },
+    {
+      "id": "10",
+      "src": "/images/gallery/outside-during-day-1.jpg",
+      "alt": {
+        "fr": "Vue extérieure du cabaret",
+        "en": "Cabaret exterior view"
+      },
+      "category": "exterior"
+    },
+    {
+      "id": "11",
+      "src": "/images/gallery/outside-during-day-2.jpg",
+      "alt": {
+        "fr": "Façade du cabaret",
+        "en": "Cabaret facade"
+      },
+      "category": "exterior"
+    },
+    {
+      "id": "12",
+      "src": "/images/gallery/menu.jpg",
+      "alt": {
+        "fr": "Menu du cabaret",
+        "en": "Cabaret menu"
       },
       "category": "food"
     }
@@ -89,6 +125,13 @@
       }
     },
     {
+      "id": "exterior",
+      "name": {
+        "fr": "Extérieur",
+        "en": "Exterior"
+      }
+    },
+    {
       "id": "food",
       "name": {
         "fr": "Gastronomie",
@@ -104,4 +147,3 @@
     }
   ]
 }
-

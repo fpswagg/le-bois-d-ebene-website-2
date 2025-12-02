@@ -17,7 +17,7 @@ export default function AboutPage() {
         <div
           className="absolute inset-0 opacity-20 bg-cover bg-center"
           style={{
-            backgroundImage: 'url(https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=2074)',
+            backgroundImage: 'url(/images/gallery/interior-2.jpg)',
           }}
         />
         
@@ -119,25 +119,42 @@ export default function AboutPage() {
       {/* Image Gallery Section */}
       <section className="py-24 px-4 bg-ebony-900">
         <div className="container mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 md:gap-8">
             {[
-              'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=2070',
-              'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2070',
+              { src: '/images/gallery/interior-3.jpg', alt: { fr: 'Espace intérieur', en: 'Interior space' } },
+              { src: '/images/gallery/interior-4.jpg', alt: { fr: 'Ambiance intérieure', en: 'Interior atmosphere' } },
             ].map((image, index) => (
               <motion.div
                 key={index}
-                className="relative h-96 rounded-xl overflow-hidden shadow-deep"
+                className="relative h-64 sm:h-80 md:h-96 rounded-lg sm:rounded-xl overflow-hidden shadow-deep"
                 initial={{ opacity: 0, scale: 0.95 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 whileHover={{ scale: 1.02 }}
               >
-                <div
-                  className="absolute inset-0 bg-cover bg-center"
-                  style={{ backgroundImage: `url(${image})` }}
+                {/* Loading placeholder */}
+                <div className="absolute inset-0 bg-ebony-800 animate-pulse" />
+                
+                <img
+                  src={image.src}
+                  alt={t('image.alt', image.alt)}
+                  loading="lazy"
+                  className="absolute inset-0 w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-ebony-950/80 to-transparent" />
+                
+                <div className="absolute inset-0 bg-gradient-to-t from-ebony-950/80 via-ebony-950/20 to-transparent" />
+                
+                {/* Optional caption on hover for desktop */}
+                <motion.div
+                  className="absolute bottom-0 left-0 right-0 p-4 sm:p-6 opacity-0 md:group-hover:opacity-100 transition-opacity"
+                  initial={{ y: 20 }}
+                  whileHover={{ y: 0 }}
+                >
+                  <p className="text-ivory-100 text-sm sm:text-base font-medium">
+                    {t('image.alt', image.alt)}
+                  </p>
+                </motion.div>
               </motion.div>
             ))}
           </div>

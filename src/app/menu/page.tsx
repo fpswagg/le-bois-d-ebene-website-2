@@ -18,7 +18,7 @@ export default function MenuPage() {
         <div
           className="absolute inset-0 opacity-20 bg-cover bg-center"
           style={{
-            backgroundImage: 'url(https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2070)',
+            backgroundImage: 'url(/images/gallery/menu.jpg)',
           }}
         />
         
@@ -99,7 +99,7 @@ export default function MenuPage() {
         </div>
       </section>
 
-      {/* Wine Pairing Info */}
+      {/* Beverages Info */}
       <section className="py-24 px-4 bg-ebony-950 wood-texture">
         <div className="container mx-auto max-w-4xl">
           <motion.div
@@ -111,14 +111,14 @@ export default function MenuPage() {
             <Card className="text-center">
               <CardHeader>
                 <CardTitle className="text-3xl">
-                  {t('hero.description', { fr: 'Accords Mets & Vins', en: 'Food & Wine Pairing' })}
+                  {t('hero.description', { fr: 'Accompagnements & Boissons', en: 'Accompaniments & Beverages' })}
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-ivory-300/80 text-lg leading-relaxed">
                   {t('hero.description', {
-                    fr: 'Notre sommelier se tient à votre disposition pour vous conseiller les meilleurs accords mets et vins. Nous proposons une carte des vins soigneusement sélectionnée, privilégiant les grands crus français.',
-                    en: 'Our sommelier is at your disposal to advise you on the best food and wine pairings. We offer a carefully selected wine list, favoring great French vintages.',
+                    fr: 'Nos plats savoureux se marient parfaitement avec notre sélection de boissons. Nous proposons une large gamme de boissons locales et internationales pour accompagner votre varan, votre gibier ou vos plats classiques. Que vous préfériez des boissons locales authentiques ou des sélections internationales, nous avons la boisson idéale pour sublimer votre expérience culinaire.',
+                    en: 'Our delicious dishes pair perfectly with our beverage selection. We offer a wide range of local and international beverages to accompany your varan, game or classic dishes. Whether you prefer authentic local drinks or international selections, we have the ideal drink to enhance your culinary experience.',
                   })}
                 </p>
               </CardContent>

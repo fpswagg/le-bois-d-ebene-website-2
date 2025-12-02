@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { motion } from 'framer-motion'
-import { Facebook, Instagram, Twitter, MapPin, Phone, Mail } from 'lucide-react'
+import { Facebook, MapPin, Phone, Mail } from 'lucide-react'
 import { useLanguage } from '@/contexts/LanguageContext'
 import contactData from '@/../data/contact.json'
 import translations from '@/../data/translations.json'
@@ -24,7 +24,7 @@ export function Footer() {
             transition={{ duration: 0.6 }}
           >
             <h3 className="text-2xl font-serif font-bold text-gold-400 mb-4">
-              Le Bois d&apos;Ébène
+              Bois d&apos;Ébène
             </h3>
             <p className="text-ivory-300/80 text-sm leading-relaxed">
               {t('footer.tagline', translations.footer.tagline)}
@@ -41,24 +41,19 @@ export function Footer() {
                 <Facebook size={20} />
               </motion.a>
               <motion.a
-                href={contactData.info.social.instagram}
+                href={contactData.info.social.tripadvisor}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-ivory-300 hover:text-gold-400 transition-colors"
                 whileHover={{ scale: 1.1, y: -2 }}
                 transition={{ duration: 0.2 }}
+                aria-label="TripAdvisor"
               >
-                <Instagram size={20} />
-              </motion.a>
-              <motion.a
-                href={contactData.info.social.twitter}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-ivory-300 hover:text-gold-400 transition-colors"
-                whileHover={{ scale: 1.1, y: -2 }}
-                transition={{ duration: 0.2 }}
-              >
-                <Twitter size={20} />
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
+                  <path d="M12 6c-3.314 0-6 2.686-6 6s2.686 6 6 6 6-2.686 6-6-2.686-6-6-6zm0 10c-2.209 0-4-1.791-4-4s1.791-4 4-4 4 1.791 4 4-1.791 4-4 4z"/>
+                  <path d="M10 10h4v4h-4z"/>
+                </svg>
               </motion.a>
             </div>
           </motion.div>
@@ -179,6 +174,25 @@ export function Footer() {
           transition={{ duration: 0.6, delay: 0.4 }}
         >
           {t('footer.copyright', translations.footer.copyright)}
+        </motion.div>
+
+        {/* Credit */}
+        <motion.div
+          className="mt-4 text-center text-xs text-ivory-300/40"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.5 }}
+        >
+          Made by{' '}
+          <a
+            href="https://fpswagg.site"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-gold-400 transition-colors underline"
+          >
+            fpswagg
+          </a>
         </motion.div>
       </div>
     </footer>

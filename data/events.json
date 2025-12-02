@@ -1,94 +1,71 @@
 {
-  "upcoming": [
+  "moments": [
     {
-      "id": "jazz-night",
+      "id": "live-music",
       "title": {
-        "fr": "Soirée Jazz & Swing",
-        "en": "Jazz & Swing Night"
+        "fr": "Musique Live",
+        "en": "Live Music"
       },
-      "date": "2025-12-15",
-      "time": "20:00",
       "description": {
-        "fr": "Plongez dans l'ambiance envoûtante du jazz avec notre trio exclusif. Une soirée élégante où la musique sublime rencontre la gastronomie raffinée.",
-        "en": "Immerse yourself in the enchanting atmosphere of jazz with our exclusive trio. An elegant evening where sublime music meets refined gastronomy."
+        "fr": "Des moments magiques où l'orchestre joue, les guitares sonnent et les voix résonnent dans une ambiance festive et chaleureuse.",
+        "en": "Magical moments where the orchestra plays, guitars sound and voices resonate in a festive and warm atmosphere."
       },
-      "artist": {
-        "fr": "Le Trio Émeraude",
-        "en": "The Emerald Trio"
-      },
-      "price": "95€",
-      "image": "jazz-night.jpg"
+      "image": "interior-4.jpg"
     },
     {
-      "id": "reveillon",
+      "id": "cabaret-show",
       "title": {
-        "fr": "Réveillon du Nouvel An",
-        "en": "New Year's Eve Celebration"
+        "fr": "Spectacle Cabaret",
+        "en": "Cabaret Show"
       },
-      "date": "2025-12-31",
-      "time": "19:30",
       "description": {
-        "fr": "Célébrez la nouvelle année dans le cadre prestigieux du Bois d'Ébène. Menu gastronomique 7 services, champagne et spectacle cabaret exceptionnel.",
-        "en": "Celebrate the new year in the prestigious setting of Le Bois d'Ébène. 7-course gourmet menu, champagne and exceptional cabaret show."
+        "fr": "Des soirées où le show prend le dessus, créant une atmosphère dynamique et énergique.",
+        "en": "Evenings where the show takes over, creating a dynamic and energetic atmosphere."
       },
-      "artist": {
-        "fr": "Spectacle Cabaret & DJ",
-        "en": "Cabaret Show & DJ"
-      },
-      "price": "250€",
-      "image": "reveillon.jpg"
+      "image": "interior-singing.jpg"
     },
     {
-      "id": "opera-night",
+      "id": "intimate-dining",
       "title": {
-        "fr": "Nuit d'Opéra",
-        "en": "Opera Night"
+        "fr": "Dîner Intime",
+        "en": "Intimate Dining"
       },
-      "date": "2026-01-20",
-      "time": "19:00",
       "description": {
-        "fr": "Une soirée exceptionnelle dédiée aux plus grands airs d'opéra, interprétés par des solistes renommés dans notre écrin intimiste.",
-        "en": "An exceptional evening dedicated to the greatest opera arias, performed by renowned soloists in our intimate setting."
+        "fr": "Des moments de convivialité autour de plats savoureux, avant que la musique ne transforme l'ambiance.",
+        "en": "Moments of conviviality around delicious dishes, before the music transforms the atmosphere."
       },
-      "artist": {
-        "fr": "Soprano & Ténor Invités",
-        "en": "Guest Soprano & Tenor"
-      },
-      "price": "120€",
-      "image": "opera.jpg"
+      "image": "interior-1.jpg"
     }
   ],
   "regular": [
     {
-      "id": "piano-bar",
+      "id": "live-orchestra",
       "title": {
-        "fr": "Piano Bar",
-        "en": "Piano Bar"
+        "fr": "Orchestre Live",
+        "en": "Live Orchestra"
       },
       "schedule": {
-        "fr": "Tous les vendredis et samedis",
-        "en": "Every Friday and Saturday"
+        "fr": "Tous les soirs",
+        "en": "Every evening"
       },
-      "time": "21:00",
       "description": {
-        "fr": "Ambiance feutrée avec notre pianiste résident qui vous accompagne tout au long de la soirée.",
-        "en": "Intimate atmosphere with our resident pianist accompanying you throughout the evening."
+        "fr": "Quand l'orchestre joue, les guitares sonnent et les voix résonnent. Une ambiance festive où le show prend le dessus sur les conversations.",
+        "en": "When the orchestra plays, guitars sound and voices resonate. A festive atmosphere where the show takes over conversations."
       }
     },
     {
-      "id": "brunch",
+      "id": "cabaret-nights",
       "title": {
-        "fr": "Brunch Dominical",
-        "en": "Sunday Brunch"
+        "fr": "Soirées Cabaret",
+        "en": "Cabaret Nights"
       },
       "schedule": {
-        "fr": "Tous les dimanches",
-        "en": "Every Sunday"
+        "fr": "Vendredis et samedis",
+        "en": "Fridays and Saturdays"
       },
-      "time": "11:00 - 15:00",
       "description": {
-        "fr": "Brunch raffiné avec buffet à volonté, viennoiseries maison et champagne.",
-        "en": "Refined brunch with unlimited buffet, homemade pastries and champagne."
+        "fr": "Des soirées où la musique live crée une atmosphère dynamique et énergique, parfaite pour se détendre et profiter de nos plats savoureux.",
+        "en": "Evenings where live music creates a dynamic and energetic atmosphere, perfect for relaxing and enjoying our delicious dishes."
       }
     }
   ]

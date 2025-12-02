@@ -31,16 +31,16 @@
   },
   "hero": {
     "title": {
-      "fr": "Le Bois d'Ébène",
-      "en": "Le Bois d'Ébène"
+      "fr": "Bois d'Ébène",
+      "en": "Bois d'Ébène"
     },
     "subtitle": {
       "fr": "Cabaret-Restaurant de Prestige",
       "en": "Prestigious Cabaret-Restaurant"
     },
     "description": {
-      "fr": "Une expérience gastronomique et artistique d'exception au cœur de Paris",
-      "en": "An exceptional gastronomic and artistic experience in the heart of Paris"
+      "fr": "Une expérience festive où la gastronomie rencontre la musique live dans une ambiance chaleureuse",
+      "en": "A festive experience where gastronomy meets live music in a warm atmosphere"
     },
     "cta": {
       "fr": "Découvrir",
@@ -53,21 +53,19 @@
       "en": "Our Story"
     },
     "subtitle": {
-      "fr": "Un lieu mythique depuis 1925",
-      "en": "A legendary venue since 1925"
+      "fr": "Un cabaret incontournable de Yaoundé",
+      "en": "A must-visit cabaret in Yaoundé"
     },
     "content": {
       "fr": [
-        "Le Bois d'Ébène incarne l'élégance parisienne depuis près d'un siècle. Niché au cœur de la capitale, notre établissement est bien plus qu'un simple restaurant : c'est un voyage dans le temps, une célébration de l'art de vivre à la française.",
-        "Nos murs ornés de boiseries précieuses en ébène véritable témoignent d'une époque révolue où le raffinement et l'excellence étaient les maîtres-mots. Chaque détail, des lustres en cristal aux fauteuils en velours, a été pensé pour créer une atmosphère à la fois intimiste et grandiose.",
-        "Notre cuisine sublime les produits d'exception, avec une prédilection pour le gibier et les mets raffinés. Notre chef étoilé compose des assiettes qui sont de véritables œuvres d'art, mariant tradition et créativité.",
-        "Le soir venu, Le Bois d'Ébène se transforme en scène vivante où se succèdent concerts de jazz, spectacles de cabaret et performances artistiques. Une expérience sensorielle complète qui ravit les palais les plus exigeants."
+        "Un des cabarets de Yaoundé incontournables ! Les plats sont savoureux, le varan ou autre gibier sont délicieux et les plats plus classiques, toujours bien servis.",
+        "Mais il y a un \"mais\" ! L'endroit est plutôt festif donc ne comptez pas sur de grands moments de discussion car dès que l'orchestre joue, les guitares sonnent, les voix résonnent, et l'heure est plus au show qu'aux conversations intimistes.",
+        "Soyez patient aussi, le service est aussi long que les plats sont bons. Et ils sont bons ! Rassurez-vous, la musique l'est tout autant."
       ],
       "en": [
-        "Le Bois d'Ébène has embodied Parisian elegance for nearly a century. Nestled in the heart of the capital, our establishment is much more than a simple restaurant: it's a journey through time, a celebration of the French art of living.",
-        "Our walls adorned with precious genuine ebony woodwork bear witness to a bygone era when refinement and excellence were the watchwords. Every detail, from the crystal chandeliers to the velvet armchairs, has been designed to create an atmosphere that is both intimate and grandiose.",
-        "Our cuisine elevates exceptional products, with a preference for game and refined dishes. Our Michelin-starred chef composes plates that are true works of art, combining tradition and creativity.",
-        "In the evening, Le Bois d'Ébène transforms into a living stage where jazz concerts, cabaret shows and artistic performances follow one another. A complete sensory experience that delights the most demanding palates."
+        "One of Yaoundé's must-visit cabarets! The dishes are delicious, the varan or other game are exquisite and the more classic dishes are always well served.",
+        "But there's a \"but\"! The place is rather festive so don't count on great moments of conversation because as soon as the orchestra plays, the guitars sound, the voices resonate, and it's more about the show than intimate conversations.",
+        "Be patient too, the service is as long as the dishes are good. And they are good! Rest assured, the music is just as good."
       ]
     },
     "values": {
@@ -78,32 +76,32 @@
       "items": [
         {
           "title": {
-            "fr": "Excellence",
-            "en": "Excellence"
+            "fr": "Qualité",
+            "en": "Quality"
           },
           "description": {
-            "fr": "Nous sélectionnons avec soin chaque ingrédient et chaque artiste pour offrir une expérience d'exception.",
-            "en": "We carefully select each ingredient and each artist to offer an exceptional experience."
+            "fr": "Des plats savoureux, du varan et gibier délicieux, des plats classiques toujours bien servis. La qualité de nos mets est notre priorité.",
+            "en": "Delicious dishes, exquisite varan and game, classic dishes always well served. The quality of our dishes is our priority."
           }
         },
         {
           "title": {
-            "fr": "Tradition",
-            "en": "Tradition"
+            "fr": "Ambiance Festive",
+            "en": "Festive Atmosphere"
           },
           "description": {
-            "fr": "Nous perpétuons l'héritage des cabarets parisiens tout en innovant constamment.",
-            "en": "We perpetuate the legacy of Parisian cabarets while constantly innovating."
+            "fr": "Un lieu où l'orchestre joue, les guitares sonnent et les voix résonnent. L'heure est au show et à la convivialité.",
+            "en": "A place where the orchestra plays, guitars sound and voices resonate. It's time for show and conviviality."
           }
         },
         {
           "title": {
-            "fr": "Raffinement",
-            "en": "Refinement"
+            "fr": "Patience & Service",
+            "en": "Patience & Service"
           },
           "description": {
-            "fr": "Chaque détail est pensé pour créer une atmosphère élégante et immersive.",
-            "en": "Every detail is designed to create an elegant and immersive atmosphere."
+            "fr": "Le service prend le temps nécessaire car nous préparons chaque plat avec soin. La patience est récompensée par l'excellence.",
+            "en": "Service takes the necessary time because we prepare each dish with care. Patience is rewarded with excellence."
           }
         }
       ]
@@ -111,12 +109,12 @@
   },
   "footer": {
     "tagline": {
-      "fr": "L'excellence à la française depuis 1925",
-      "en": "French excellence since 1925"
+      "fr": "Un cabaret incontournable de Yaoundé",
+      "en": "A must-visit cabaret in Yaoundé"
     },
     "copyright": {
-      "fr": "© 2025 Le Bois d'Ébène. Tous droits réservés.",
-      "en": "© 2025 Le Bois d'Ébène. All rights reserved."
+      "fr": "© 2025 Bois d'Ébène. Tous droits réservés.",
+      "en": "© 2025 Bois d'Ébène. All rights reserved."
     },
     "hours": {
       "fr": "Horaires",
