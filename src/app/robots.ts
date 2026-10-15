@@ -1,16 +1,6 @@
 import { MetadataRoute } from 'next'
 
+// Demo site: crawlers may fetch pages (to see the noindex header) but no sitemap is advertised.
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.boisdebene.cm'
-  
-  return {
-    rules: [
-      {
-        userAgent: '*',
-        allow: '/',
-        disallow: ['/api/'],
-      },
-    ],
-    sitemap: `${baseUrl}/sitemap.xml`,
-  }
+  return { rules: [{ userAgent: '*', allow: '/', disallow: ['/api/'] }] }
 }
