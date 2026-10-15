@@ -2,7 +2,7 @@
   "info": {
     "name": "Bois d'Ébène",
     "address": {
-      "street": "5 Ave Monseigneur Vogt",
+      "street": "5 Avenue Monseigneur Vogt, Elig-Essono (montée BEAC)",
       "city": "Yaounde",
       "postalCode": "",
       "country": {
@@ -10,7 +10,7 @@
         "en": "Cameroon"
       }
     },
-    "phone": "+237 2 22 22 27 19",
+    "phone": "+237 222 22 41 09",
     "email": "boisebene_restocabaret@yahoo.fr",
     "hours": {
       "fr": {
@@ -33,7 +33,6 @@
       }
     },
     "social": {
-      "facebook": "https://facebook.com/leboisdebene",
       "tripadvisor": "https://www.tripadvisor.fr/Restaurant_Review-g293773-d6662898-Reviews-Bois_d_Ebene_Yaounde-Yaounde_Centre_Region.html"
     },
     "coordinates": {
@@ -118,4 +117,3 @@
     }
   }
 }
-

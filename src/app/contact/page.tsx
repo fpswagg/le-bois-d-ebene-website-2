@@ -170,7 +170,7 @@ export default function ContactPage() {
                   <div className="flex items-center gap-4">
                     <Phone className="h-5 w-5 text-gold-400 flex-shrink-0" />
                     <a
-                      href={`tel:${contactData.info.phone}`}
+                      href={`tel:${contactData.info.phone.replace(/\s/g, '')}`}
                       className="text-ivory-100 hover:text-gold-400 transition-colors"
                     >
                       {contactData.info.phone}

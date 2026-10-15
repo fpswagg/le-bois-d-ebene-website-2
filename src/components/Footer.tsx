@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { motion } from 'framer-motion'
-import { Facebook, MapPin, Phone, Mail } from 'lucide-react'
+import { MapPin, Phone, Mail } from 'lucide-react'
 import { useLanguage } from '@/contexts/LanguageContext'
 import contactData from '@/../data/contact.json'
 import translations from '@/../data/translations.json'
@@ -30,16 +30,6 @@ export function Footer() {
               {t('footer.tagline', translations.footer.tagline)}
             </p>
             <div className="flex space-x-4 mt-6">
-              <motion.a
-                href={contactData.info.social.facebook}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-ivory-300 hover:text-gold-400 transition-colors"
-                whileHover={{ scale: 1.1, y: -2 }}
-                transition={{ duration: 0.2 }}
-              >
-                <Facebook size={20} />
-              </motion.a>
               <motion.a
                 href={contactData.info.social.tripadvisor}
                 target="_blank"
@@ -80,7 +70,7 @@ export function Footer() {
               </div>
               <div className="flex items-center space-x-3">
                 <Phone size={16} className="flex-shrink-0" />
-                <a href={`tel:${contactData.info.phone}`} className="hover:text-gold-400 transition-colors">
+                <a href={`tel:${contactData.info.phone.replace(/\s/g, '')}`} className="hover:text-gold-400 transition-colors">
                   {contactData.info.phone}
                 </a>
               </div>
